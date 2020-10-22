@@ -20,7 +20,6 @@ export default function App(): JSX.Element {
     async function fetchCards(): Promise<void> {
       if (_.isEmpty(state.cards)) {
         const {data} = await api.get(`/cards`);
-
         dispatch({
           type: 'ADD_CARDS',
           payload: _.orderBy(data.cards, 'name', 'asc'),

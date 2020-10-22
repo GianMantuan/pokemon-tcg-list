@@ -39,8 +39,7 @@ export default function PokemonCard({pokemon, navigation}: Props): JSX.Element {
         itemWidth={width / 1.3}
         renderItem={({item}) => (
           <TouchableOpacity
-            onPress={() => navigation.navigate('CardsDetail', item)}
-          >
+            onPress={() => navigation.navigate('CardsDetail', item)}>
             <Card key={item.id}>
               <CardImage>
                 <Image source={{uri: item.imageUrl}} />

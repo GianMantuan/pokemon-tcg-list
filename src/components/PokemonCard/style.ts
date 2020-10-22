@@ -4,7 +4,7 @@ import {TypesColor} from '../../utils';
 
 const {height, width} = Dimensions.get('screen');
 
-export const Container = styled.View`
+export const Container = styled.ScrollView`
   flex: 1;
   min-height: ${height}px;
 `;
@@ -22,6 +22,7 @@ export const Card = styled.View`
   width: ${width - 100}px;
   min-height: ${height / 1.7}px
   margin-top: 20px
+  margin-bottom: 20px
 `;
 
 export const CardImage = styled.View`
