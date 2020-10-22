@@ -19,11 +19,13 @@ function BadgeList({item, itemName}: Props): JSX.Element {
           <BadgeContainer
             color={data.type ?? data}
             key={`${itemName}-${index}`}>
-            <BadgeTitle>{data.type ?? data}</BadgeTitle>
+            <BadgeTitle>
+              {data.type ? t(`${data.type}`) : t(`${data}`)}
+            </BadgeTitle>
           </BadgeContainer>
         ))
       ) : (
-        <Text key="no-type">No {itemName}</Text>
+        <Text key="no-type">{t('noText', {text: `${itemName}`})}</Text>
       )}
     </List>
   );

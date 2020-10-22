@@ -15,9 +15,9 @@ const languageDetector = {
   type: 'languageDetector',
   async: true,
   detect: async (callback) => {
-    const storedLanguage = await AsyncStorage.getItem('language');
+    // const storedLanguage = await AsyncStorage.getItem('language');
 
-    if (storedLanguage) return callback(storedLanguage);
+    // if (storedLanguage) return callback(storedLanguage);
 
     let phoneLanguage =
       Platform.OS === 'ios'
@@ -40,8 +40,7 @@ i18n
   .use(initReactI18next) // Habilita o módulo de inicialização do hook
   .init({
     resources,
-    fallbackLng: 'en-US',
-    debug: true,
+    fallbackLng: 'pt-BR',
     interpolation: {
       escapeValue: false,
     },

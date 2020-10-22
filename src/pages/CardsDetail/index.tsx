@@ -1,14 +1,14 @@
-import React, {useState} from 'react';
-import {ScrollView, Text, View} from 'react-native';
+import React from 'react';
+import {useTranslation} from 'react-i18next';
+import {ScrollView, Text} from 'react-native';
 
 import BadgeList from '../../components/BadgeList';
 import CardList from '../../components/CardList';
-import ModalView from '../../components/Modal';
 
 import {Header, Body, Title, ImageContainer, Image, Label} from './style';
 
 export default function CardsDetail({route, navigation}): JSX.Element {
-  const [visible, setVisible] = useState(false);
+  const {t} = useTranslation();
   const item = route.params;
 
   return (
@@ -21,16 +21,16 @@ export default function CardsDetail({route, navigation}): JSX.Element {
         <Image source={{uri: item.imageUrlHiRes}} />
       </ImageContainer>
       <Body>
-        <Label>Types</Label>
-        <BadgeList item={item.types} itemName="Types" />
+        <Label>{t('type')}</Label>
+        <BadgeList item={item.types} itemName={t('type')} />
 
-        <Label>Resistances</Label>
-        <BadgeList item={item.resistances} itemName="Resistances" />
+        <Label>{t('res')}</Label>
+        <BadgeList item={item.resistances} itemName={t('res')} />
 
-        <Label>Weaknesses</Label>
-        <BadgeList item={item.weaknesses} itemName="Weaknesses" />
+        <Label>{t('weak')}</Label>
+        <BadgeList item={item.weaknesses} itemName={t('weak')} />
 
-        <Label>Attacks</Label>
+        <Label>{t('atk')}</Label>
         <CardList item={item.attacks} />
       </Body>
     </ScrollView>

@@ -1,21 +1,27 @@
 {
   "translation": {
+    "header": "Card Detail",
+    "cards": "Cards",
     "app_description": "Search for Pokémon by name",
     "search": "Search...",
     "name": "Name",
     "cardType": "Card Type",
-    "types": {
-      "Fire": "Fire",
-      "Grass": "Grass",
-      "Water": "Water",
-      "Lightning": "Lightning",
-      "Psychic": "Psychic",
-      "Fightning": "Fightning",
-      "Darkness": "Darkness",
-      "Metal": "Metal",
-      "Dragon": "Dragon",
-      "Fairy": "Fairy",
-      "Colorless": "Colorless"
-    }
+    "type": "Types",
+    "noTexk": "No {{text}}",
+    "weak": "Weaknesses",
+    "res": "Resistances",
+    "atk": "Attacks",
+    "noAtk": "No Attacks",
+    "Fire": "Fire",
+    "Grass": "Grass",
+    "Water": "Water",
+    "Lightning": "Lightning",
+    "Psychic": "Psychic",
+    "Fighting": "Fighting",
+    "Darkness": "Darkness",
+    "Metal": "Metal",
+    "Dragon": "Dragon",
+    "Fairy": "Fairy",
+    "Colorless": "Colorless"
   }
 }

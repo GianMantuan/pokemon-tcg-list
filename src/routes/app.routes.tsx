@@ -1,6 +1,7 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 
+import {useTranslation} from 'react-i18next';
 import Cards from '../pages/Cards';
 import CardsDetail from '../pages/CardsDetail';
 
@@ -12,6 +13,8 @@ type RootParamList = {
 const App = createStackNavigator<RootParamList>();
 
 export default function AppRoutes(): JSX.Element {
+  const {t} = useTranslation();
+
   return (
     <App.Navigator
       initialRouteName="Cards"
@@ -32,7 +35,7 @@ export default function AppRoutes(): JSX.Element {
             backgroundColor: '#FFF',
             shadowColor: 'transparent',
           },
-          title: 'Card Detail',
+          title: t('header'),
         }}
         name="CardsDetail"
         component={CardsDetail}
