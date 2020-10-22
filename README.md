@@ -1,5 +1,5 @@
 <h1 align="center">Pokémon: The Card Game App</h1>
-A simple mobile application using react-Native and the Pokemon TCG API (https://pokemontcg.io/)
+A simple mobile application using React-Native and the Pokemon TCG API (https://pokemontcg.io/)
 
 ## Features
 - List of Pokémon Cards with search by name;
