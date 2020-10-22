@@ -1,0 +1,19 @@
+{
+  "translation": {
+    "app_description": "Procure o Pokémon pelo nome",
+    "search": "Buscar...",
+    "types": {
+      "Fire": "Fogo",
+      "Grass": "Grama",
+      "Water": "Água",
+      "Lightning": "Elétrica",
+      "Psychic": "Psíquica",
+      "Fightning": "Luta",
+      "Darkness": "Noturna",
+      "Metal": "Metálica",
+      "Dragon": "Dragão",
+      "Fairy": "Fada",
+      "Colorless": "Normal"
+    }
+  }
+}

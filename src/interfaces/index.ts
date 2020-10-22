@@ -1,4 +1,4 @@
-interface IPokemonAttacks {
+export interface IPokemonAttacks {
   cost: Array<string>;
   name: string;
   text: string;

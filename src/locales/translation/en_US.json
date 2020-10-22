@@ -1,0 +1,21 @@
+{
+  "translation": {
+    "app_description": "Search for Pokémon by name",
+    "search": "Search...",
+    "name": "Name",
+    "cardType": "Card Type",
+    "types": {
+      "Fire": "Fire",
+      "Grass": "Grass",
+      "Water": "Water",
+      "Lightning": "Lightning",
+      "Psychic": "Psychic",
+      "Fightning": "Fightning",
+      "Darkness": "Darkness",
+      "Metal": "Metal",
+      "Dragon": "Dragon",
+      "Fairy": "Fairy",
+      "Colorless": "Colorless"
+    }
+  }
+}

@@ -16,21 +16,27 @@ export default function AppRoutes(): JSX.Element {
     <App.Navigator
       initialRouteName="Cards"
       screenOptions={{
-        cardShadowEnabled: false,
-        headerStyle: {
-          height: 50,
-          borderBottomWidth: 0,
-          backgroundColor: '#c1c7c9',
-          elevation: 0,
-          shadowColor: 'transparent',
-        },
-      }}>
+        cardStyle: {backgroundColor: '#FFF'},
+      }}
+    >
       <App.Screen
+        options={{headerShown: false}}
         name="Cards"
         component={Cards}
-        options={{title: 'List of Pokemon Cards'}}
       />
-      <App.Screen name="CardsDetail" component={CardsDetail} />
+      <App.Screen
+        options={{
+          headerStyle: {
+            elevation: 0,
+            borderBottomWidth: 0,
+            backgroundColor: '#FFF',
+            shadowColor: 'transparent',
+          },
+          title: 'Card Detail',
+        }}
+        name="CardsDetail"
+        component={CardsDetail}
+      />
     </App.Navigator>
   );
 }
