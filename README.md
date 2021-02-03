@@ -7,6 +7,13 @@ A simple mobile application using React-Native and the Pokemon TCG API (https://
 - List of Attacks and its stats (Damage, Mana Cost);
 - Support for Multiple Languages (pt_BR, en_US);
 
+## Pictures
+
+![Main Screen](https://i.imgur.com/A2aqyHF.jpeg)
+![Main Screen](https://i.imgur.com/d1S5xO1.jpeg)
+![Card Details](https://i.imgur.com/lZelQkW.jpeg)
+![Card Details](https://i.imgur.com/rw6fKG9.jpeg)
+
 ## Running the Project
 First you need to install the dependencies:
 ```
