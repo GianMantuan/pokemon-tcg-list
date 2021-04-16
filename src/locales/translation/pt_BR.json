@@ -22,6 +22,8 @@
     "Metal": "Metálica",
     "Dragon": "Dragão",
     "Fairy": "Fada",
-    "Colorless": "Normal"
+    "Colorless": "Normal",
+    "errorTitle": "Algo deu errado!",
+    "errorMessage": "Tente novamente mais tarde."
   }
 }

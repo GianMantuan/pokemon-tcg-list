@@ -22,6 +22,8 @@
     "Metal": "Metal",
     "Dragon": "Dragon",
     "Fairy": "Fairy",
-    "Colorless": "Colorless"
+    "Colorless": "Colorless",
+    "errorTitle": "Something went wrong!",
+    "errorMessage": "Please try again later."
   }
 }
