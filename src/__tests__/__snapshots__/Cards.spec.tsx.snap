@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards Page should call Card component with a CardsContext 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginTop": 20,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 20,
+          "marginLeft": 20,
+          "marginRight": 20,
+          "marginTop": 20,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#121212",
+            "fontSize": 24,
+            "fontWeight": "bold",
+            "marginBottom": 10,
+          },
+        ]
+      }
+    >
+      Pokedemon: The Card Game
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#c1c7c9",
+            "fontSize": 18,
+            "fontWeight": "400",
+          },
+        ]
+      }
+    >
+      app_description
+    </Text>
+  </View>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="search"
+    rejectResponderTermination={true}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgba(230, 230, 230, 0.5)",
+          "borderRadius": 14,
+          "marginBottom": 20,
+          "marginHorizontal": 20,
+          "paddingBottom": 15,
+          "paddingLeft": 15,
+          "paddingRight": 15,
+          "paddingTop": 15,
+        },
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+  <RCTScrollView
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "minHeight": 1334,
+        },
+      ]
+    }
+  >
+    <View>
+      <RCTScrollView
+        activeAnimationOptions={null}
+        activeAnimationType="timing"
+        activeSlideAlignment="center"
+        activeSlideOffset={20}
+        apparitionDelay={0}
+        automaticallyAdjustContentInsets={false}
+        autoplay={false}
+        autoplayDelay={1000}
+        autoplayInterval={3000}
+        callbackOffsetMargin={5}
+        containerCustomStyle={Object {}}
+        contentContainerCustomStyle={Object {}}
+        contentContainerStyle={
+          Array [
+            Object {
+              "paddingLeft": 86.53846153846155,
+              "paddingRight": 86.53846153846155,
+            },
+            Object {},
+          ]
+        }
+        data={Array []}
+        decelerationRate="fast"
+        directionalLockEnabled={true}
+        disableVirtualization={false}
+        enableMomentum={false}
+        enableSnap={true}
+        firstItem={0}
+        forwardedRef={[Function]}
+        getItem={[Function]}
+        getItemCount={[Function]}
+        hasParallaxImages={false}
+        horizontal={true}
+        inactiveSlideOpacity={0.7}
+        inactiveSlideScale={0.9}
+        inactiveSlideShift={0}
+        initialNumToRender={7}
+        invertStickyHeaders={false}
+        inverted={false}
+        itemWidth={576.9230769230769}
+        keyExtractor={[Function]}
+        layout="default"
+        lockScrollTimeoutDuration={1000}
+        lockScrollWhileSnapping={false}
+        loop={false}
+        loopClonesPerSide={3}
+        maxToRenderPerBatch={15}
+        onContentSizeChange={[Function]}
+        onEndReachedThreshold={2}
+        onLayout={[Function]}
+        onMomentumScrollEnd={[Function]}
+        onResponderRelease={[Function]}
+        onScroll={[Function]}
+        onScrollBeginDrag={[Function]}
+        onScrollEndDrag={[Function]}
+        onStartShouldSetResponderCapture={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        overScrollMode="never"
+        pinchGestureEnabled={false}
+        removeClippedSubviews={true}
+        renderItem={[Function]}
+        scrollEnabled={true}
+        scrollEventThrottle={1}
+        scrollsToTop={false}
+        shouldOptimizeUpdates={true}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        slideStyle={Object {}}
+        sliderWidth={750}
+        stickyHeaderIndices={Array []}
+        style={
+          Object {
+            "flexDirection": "row",
+            "opacity": 0,
+            "width": 750,
+          }
+        }
+        swipeThreshold={20}
+        updateCellsBatchingPeriod={50}
+        useScrollView={false}
+        vertical={false}
+        viewabilityConfigCallbackPairs={Array []}
+        windowSize={15}
+      >
+        <View />
+      </RCTScrollView>
+    </View>
+  </RCTScrollView>
+</View>
+`;

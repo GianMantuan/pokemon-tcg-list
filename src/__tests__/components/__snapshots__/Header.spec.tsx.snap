@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render Header component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "marginLeft": 20,
+        "marginRight": 20,
+        "marginTop": 20,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#121212",
+          "fontSize": 24,
+          "fontWeight": "bold",
+          "marginBottom": 10,
+        },
+      ]
+    }
+  >
+    title
+  </Text>
+</View>
+`;
