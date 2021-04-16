@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import {Dimensions} from 'react-native';
 
-const {height, width} = Dimensions.get('screen');
+const {height} = Dimensions.get('screen');
 
 export const Container = styled.View`
   height: ${height / 1.5}px
